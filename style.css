@@ -1,0 +1,44 @@
+
+            h1 {
+                color: brown;
+            }
+
+          
+.header{
+    background-color: aqua;
+display: flex;
+justify-content:space-between;
+
+}
+.menu{
+    display: flex;
+ order: 2;
+    flex-grow:10;
+}
+.games{
+    display: flex;
+ flex-wrap: wrap;
+ justify-content:space-evenly;
+}
+h2,p{
+    text-align: center;
+}
+.footer{
+
+    display: flex;
+    justify-content:flex-end;
+
+      
+}
+.links{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color:lightblue;
+ 
+
+}
+.link{
+    flex-direction:column;
+}
